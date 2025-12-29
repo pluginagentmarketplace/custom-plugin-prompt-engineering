@@ -1,0 +1,25 @@
+{
+  "name": "prompt-engineering-assistant",
+  "version": "1.0.0",
+  "description": "Professional prompt engineering plugin with 7 specialized agents for Claude Code. Master prompt design, few-shot learning, chain-of-thought reasoning, and structured output generation.",
+  "author": {
+    "name": "Plugin Agent Marketplace",
+    "email": "plugins@pluginagentmarketplace.com",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-prompt-engineering",
+  "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-prompt-engineering",
+  "keywords": [
+    "prompt-engineering",
+    "claude-code",
+    "plugin",
+    "ai-assistant",
+    "llm",
+    "few-shot",
+    "chain-of-thought",
+    "react-pattern",
+    "prompt-templates",
+    "structured-output"
+  ]
+}

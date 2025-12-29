@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-prompt-engineering",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "plugins@pluginagentmarketplace.com"
+  },
+  "plugins": [
+    {
+      "name": "prompt-engineering-assistant",
+      "source": "./",
+      "description": "Master prompt engineering with 7 specialized agents",
+      "version": "1.0.0"
+    }
+  ]
+}

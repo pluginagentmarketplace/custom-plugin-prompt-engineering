@@ -1,19 +1,19 @@
 <div align="center">
 
 <!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Prompt+Engineering+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Prompt Engineering Assistant" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Prompt+Engineering+Assistant;8+Agents+%7C+12+Skills;Claude+Code+Plugin" alt="Prompt Engineering Assistant" />
 
 <br/>
 
 <!-- Badge Row 1: Status Badges -->
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-prompt-engineering/releases)
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-prompt-engineering/releases)
 [![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
 [![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Agents](https://img.shields.io/badge/Agents-8-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-12-purple?style=flat-square&logo=lightning)](#-skills)
 [![Commands](https://img.shields.io/badge/Commands-1-green?style=flat-square&logo=terminal)](#-commands)
 
 <br/>
@@ -25,7 +25,7 @@
 
 ### What is this?
 
-> **Prompt Engineering Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for prompt engineering development.
+> **Prompt Engineering Assistant** is a production-grade Claude Code plugin with **8 agents** and **12 skills** for professional prompt engineering development.
 
 </div>
 
@@ -95,12 +95,14 @@ cd custom-plugin-prompt-engineering
 After restart, you should see these agents:
 
 ```
-prompt-engineering-assistant:07-advanced-techniques-agent
-prompt-engineering-assistant:01-prompt-fundamentals-agent
-prompt-engineering-assistant:03-chain-of-thought-agent
-prompt-engineering-assistant:05-prompt-optimization-agent
-prompt-engineering-assistant:06-evaluation-testing-agent
-... and 2 more
+prompt-engineering-assistant:prompt-fundamentals-agent
+prompt-engineering-assistant:few-shot-specialist-agent
+prompt-engineering-assistant:chain-of-thought-agent
+prompt-engineering-assistant:react-pattern-agent
+prompt-engineering-assistant:prompt-optimization-agent
+prompt-engineering-assistant:evaluation-testing-agent
+prompt-engineering-assistant:advanced-techniques-agent
+prompt-engineering-assistant:prompt-security-agent
 ```
 
 ---
@@ -109,42 +111,69 @@ prompt-engineering-assistant:06-evaluation-testing-agent
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **7 Agents** | Specialized AI agents for prompt engineering tasks |
-| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **1 Commands** | Quick slash commands |
-| 🔄 **SASMP v1.3.0** | Full protocol compliance |
+| 🤖 **8 Agents** | Production-grade AI agents with I/O schemas and error handling |
+| 🛠️ **12 Skills** | Comprehensive skills with parameter validation and troubleshooting |
+| ⌨️ **1 Command** | Quick slash command for prompt review |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance with EQHM enabled |
+| 📊 **Troubleshooting** | Built-in debug checklists and recovery strategies |
+| 🔒 **Security** | Prompt injection defense and safety guardrails |
 
 ---
 
 ## 🤖 Agents
 
-### 7 Specialized Agents
+### 8 Specialized Production-Grade Agents
 
-| # | Agent | Purpose |
-|---|-------|---------|
-| 1 | **07-advanced-techniques-agent** | Advanced prompting specialist - Implements meta-prompting, s |
-| 2 | **01-prompt-fundamentals-agent** | Prompt engineering fundamentals specialist - Teaches core co |
-| 3 | **03-chain-of-thought-agent** | Chain-of-thought reasoning specialist - Implements step-by-s |
-| 4 | **05-prompt-optimization-agent** | Prompt optimization specialist - Refines prompts for token e |
-| 5 | **06-evaluation-testing-agent** | Prompt evaluation specialist - Tests prompt robustness, meas |
-| 6 | **04-react-pattern-agent** | ReAct pattern specialist - Implements Reasoning+Acting patte |
-| 7 | **02-few-shot-specialist-agent** | Few-shot prompting expert - Designs effective example-based  |
+| # | Agent | Model | Purpose |
+|---|-------|-------|---------|
+| 1 | **prompt-fundamentals-agent** | sonnet | Core prompt design patterns, ROLE-CONTEXT-TASK-FORMAT |
+| 2 | **few-shot-specialist-agent** | sonnet | Example-based prompting, in-context learning |
+| 3 | **chain-of-thought-agent** | sonnet | Step-by-step reasoning, self-consistency, ToT |
+| 4 | **react-pattern-agent** | sonnet | Reasoning+Acting, tool use, agentic workflows |
+| 5 | **prompt-optimization-agent** | sonnet | Token efficiency, clarity improvement, A/B testing |
+| 6 | **evaluation-testing-agent** | sonnet | Prompt metrics, test frameworks, quality assurance |
+| 7 | **advanced-techniques-agent** | opus | Meta-prompting, self-reflection, constitutional AI |
+| 8 | **prompt-security-agent** | sonnet | Injection defense, safety guardrails, secure design |
+
+### Agent Features
+
+Each agent includes:
+- ✅ Clear role & responsibility boundaries
+- ✅ Input/Output schemas (type-safe)
+- ✅ Error handling patterns
+- ✅ Fallback strategies
+- ✅ Token optimization configs
+- ✅ Troubleshooting guides
 
 ---
 
 ## 🛠️ Skills
 
-### Available Skills
+### 12 Production-Grade Skills
 
-| Skill | Description | Invoke |
-|-------|-------------|--------|
-| `prompt-design` | Core prompt design patterns and templates for effective LLM  | `Skill("prompt-engineering-assistant:prompt-design")` |
-| `prompt-evaluation` | Prompt testing, metrics, and A/B testing frameworks | `Skill("prompt-engineering-assistant:prompt-evaluation")` |
-| `chain-of-thought` | Step-by-step reasoning patterns for complex problem solving | `Skill("prompt-engineering-assistant:chain-of-thought")` |
-| `structured-output` | JSON, XML, and structured data generation patterns | `Skill("prompt-engineering-assistant:structured-output")` |
-| `prompt-templates` | Reusable prompt templates for common tasks and optimization  | `Skill("prompt-engineering-assistant:prompt-templates")` |
-| `react-pattern` | Reasoning and Acting patterns for agentic LLM workflows | `Skill("prompt-engineering-assistant:react-pattern")` |
-| `few-shot-prompting` | Example-based prompting techniques for in-context learning | `Skill("prompt-engineering-assistant:few-shot-prompting")` |
+| Category | Skill | Description |
+|----------|-------|-------------|
+| **Core** | `prompt-design` | RCTF, IIO, PSG patterns with validation checklists |
+| **Core** | `few-shot-prompting` | Shot strategies, example selection, ordering |
+| **Core** | `chain-of-thought` | Zero-shot CoT, self-consistency, plan-and-solve |
+| **Agentic** | `react-pattern` | Thought-Action-Observation loops, tool schemas |
+| **Agentic** | `agent-design` | Agent architectures, memory patterns |
+| **Output** | `structured-output` | JSON/YAML/XML, schema enforcement |
+| **Output** | `prompt-templates` | Production templates for code review, docs, bugs |
+| **Quality** | `prompt-evaluation` | Test frameworks, A/B testing, scoring rubrics |
+| **Advanced** | `fine-tuning` | LoRA, QLoRA, dataset preparation |
+| **Advanced** | `multi-modal` | Vision, document, audio prompting |
+| **Security** | `prompt-injection` | Defense patterns, detection rules |
+| **Security** | `safety-guardrails` | Content filtering, output validation |
+
+### Skill Features
+
+Each skill includes:
+- ✅ Parameter schemas with validation
+- ✅ Core patterns with examples
+- ✅ Troubleshooting tables
+- ✅ Integration points
+- ✅ Quick start commands
 
 ---
 
@@ -176,9 +205,29 @@ custom-plugin-prompt-engineering/
 ├── 📁 .claude-plugin/
 │   ├── plugin.json
 │   └── marketplace.json
-├── 📁 agents/              # 7 agents
-├── 📁 skills/              # 7 skills (Golden Format)
-├── 📁 commands/            # 1 commands
+├── 📁 agents/              # 8 production-grade agents
+│   ├── 01-prompt-fundamentals-agent.md
+│   ├── 02-few-shot-specialist-agent.md
+│   ├── 03-chain-of-thought-agent.md
+│   ├── 04-react-pattern-agent.md
+│   ├── 05-prompt-optimization-agent.md
+│   ├── 06-evaluation-testing-agent.md
+│   ├── 07-advanced-techniques-agent.md
+│   └── 08-prompt-security-agent.md
+├── 📁 skills/              # 12 skills (Golden Format)
+│   ├── prompt-design/
+│   ├── few-shot-prompting/
+│   ├── chain-of-thought/
+│   ├── react-pattern/
+│   ├── structured-output/
+│   ├── prompt-templates/
+│   ├── prompt-evaluation/
+│   ├── agent-design/
+│   ├── fine-tuning/
+│   ├── multi-modal/
+│   ├── prompt-injection/
+│   └── safety-guardrails/
+├── 📁 commands/            # 1 command
 ├── 📁 hooks/
 ├── 📄 README.md
 ├── 📄 CHANGELOG.md
@@ -193,12 +242,13 @@ custom-plugin-prompt-engineering/
 
 | Field | Value |
 |-------|-------|
-| **Version** | 1.0.0 |
-| **Last Updated** | 2025-12-29 |
+| **Version** | 1.1.0 |
+| **Last Updated** | 2025-12-30 |
 | **Status** | Production Ready |
 | **SASMP** | v1.3.0 |
-| **Agents** | 7 |
-| **Skills** | 7 |
+| **EQHM** | Enabled |
+| **Agents** | 8 |
+| **Skills** | 12 |
 | **Commands** | 1 |
 
 ---
@@ -210,7 +260,8 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 1. Fork the repository
 2. Create your feature branch
 3. Follow the Golden Format for new skills
-4. Submit a pull request
+4. Include I/O schemas and troubleshooting
+5. Submit a pull request
 
 ---
 

@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Prompt+Engineering+Assistant;8+Agents+%7C+12+Skills;Claude+Code+Plugin" alt="Prompt Engineering Assistant" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Prompt+Engineering+Assistant;0+Agents+%7C+0+Skills;Claude+Code+Plugin" alt="Prompt Engineering Assistant" />
 
 <br/>
 
@@ -12,9 +12,9 @@
 [![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-8-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-12-purple?style=flat-square&logo=lightning)](#-skills)
-[![Commands](https://img.shields.io/badge/Commands-1-green?style=flat-square&logo=terminal)](#-commands)
+[![Agents](https://img.shields.io/badge/Agents-0-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-0-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-0-green?style=flat-square&logo=terminal)](#-commands)
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 ### What is this?
 
-> **Prompt Engineering Assistant** is a production-grade Claude Code plugin with **8 agents** and **12 skills** for professional prompt engineering development.
+> **Prompt Engineering Assistant** is a production-grade Claude Code plugin with **0 agents** and **0 skills** for professional prompt engineering development.
 
 </div>
 
@@ -111,8 +111,8 @@ prompt-engineering-assistant:prompt-security-agent
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **8 Agents** | Production-grade AI agents with I/O schemas and error handling |
-| 🛠️ **12 Skills** | Comprehensive skills with parameter validation and troubleshooting |
+| 🤖 **0 Agents** | Production-grade AI agents with I/O schemas and error handling |
+| 🛠️ **0 Skills** | Comprehensive skills with parameter validation and troubleshooting |
 | ⌨️ **1 Command** | Quick slash command for prompt review |
 | 🔄 **SASMP v1.3.0** | Full protocol compliance with EQHM enabled |
 | 📊 **Troubleshooting** | Built-in debug checklists and recovery strategies |
@@ -214,7 +214,7 @@ custom-plugin-prompt-engineering/
 │   ├── 06-evaluation-testing-agent.md
 │   ├── 07-advanced-techniques-agent.md
 │   └── 08-prompt-security-agent.md
-├── 📁 skills/              # 12 skills (Golden Format)
+├── 📁 skills/              # 0 skills (Golden Format)
 │   ├── prompt-design/
 │   ├── few-shot-prompting/
 │   ├── chain-of-thought/
@@ -247,9 +247,9 @@ custom-plugin-prompt-engineering/
 | **Status** | Production Ready |
 | **SASMP** | v1.3.0 |
 | **EQHM** | Enabled |
-| **Agents** | 8 |
-| **Skills** | 12 |
-| **Commands** | 1 |
+| **Agents** | 0 |
+| **Skills** | 0 |
+| **Commands** | 0 |
 
 ---
 

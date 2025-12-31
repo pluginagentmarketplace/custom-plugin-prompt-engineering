@@ -2,7 +2,7 @@
 name: safety-guardrails
 description: LLM safety guardrails and content moderation
 sasmp_version: "1.3.0"
-bonded_agent: prompt-security-agent
+bonded_agent: 08-prompt-security-agent
 bond_type: PRIMARY_BOND
 ---
 

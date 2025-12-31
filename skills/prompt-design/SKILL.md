@@ -2,7 +2,7 @@
 name: prompt-design
 description: Core prompt design patterns and templates for effective LLM communication
 sasmp_version: "1.3.0"
-bonded_agent: prompt-fundamentals-agent
+bonded_agent: 01-prompt-fundamentals-agent
 bond_type: PRIMARY_BOND
 ---
 

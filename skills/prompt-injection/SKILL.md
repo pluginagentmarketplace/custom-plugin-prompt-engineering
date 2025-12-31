@@ -2,7 +2,7 @@
 name: prompt-injection
 description: Prompt injection attack prevention and defense
 sasmp_version: "1.3.0"
-bonded_agent: prompt-security-agent
+bonded_agent: 08-prompt-security-agent
 bond_type: PRIMARY_BOND
 ---
 

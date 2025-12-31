@@ -2,7 +2,7 @@
 name: agent-design
 description: AI agent design and tool-use prompting patterns
 sasmp_version: "1.3.0"
-bonded_agent: react-pattern-agent
+bonded_agent: 04-react-pattern-agent
 bond_type: PRIMARY_BOND
 ---
 

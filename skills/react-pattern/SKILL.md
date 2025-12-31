@@ -2,7 +2,7 @@
 name: react-pattern
 description: Reasoning and Acting patterns for agentic LLM workflows
 sasmp_version: "1.3.0"
-bonded_agent: react-pattern-agent
+bonded_agent: 04-react-pattern-agent
 bond_type: PRIMARY_BOND
 ---
 

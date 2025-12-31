@@ -2,7 +2,7 @@
 name: chain-of-thought
 description: Step-by-step reasoning patterns for complex problem solving
 sasmp_version: "1.3.0"
-bonded_agent: chain-of-thought-agent
+bonded_agent: 03-chain-of-thought-agent
 bond_type: PRIMARY_BOND
 ---
 

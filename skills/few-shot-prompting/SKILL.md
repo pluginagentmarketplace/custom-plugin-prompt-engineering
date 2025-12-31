@@ -2,7 +2,7 @@
 name: few-shot-prompting
 description: Example-based prompting techniques for in-context learning
 sasmp_version: "1.3.0"
-bonded_agent: few-shot-specialist-agent
+bonded_agent: 02-few-shot-specialist-agent
 bond_type: PRIMARY_BOND
 ---
 

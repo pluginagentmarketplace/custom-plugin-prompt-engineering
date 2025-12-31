@@ -2,7 +2,7 @@
 name: fine-tuning
 description: LLM fine-tuning and prompt-tuning techniques
 sasmp_version: "1.3.0"
-bonded_agent: prompt-optimization-agent
+bonded_agent: 05-prompt-optimization-agent
 bond_type: PRIMARY_BOND
 ---
 

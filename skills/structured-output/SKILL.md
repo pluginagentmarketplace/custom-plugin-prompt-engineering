@@ -2,7 +2,7 @@
 name: structured-output
 description: JSON, XML, and structured data generation patterns
 sasmp_version: "1.3.0"
-bonded_agent: advanced-techniques-agent
+bonded_agent: 07-advanced-techniques-agent
 bond_type: PRIMARY_BOND
 ---
 

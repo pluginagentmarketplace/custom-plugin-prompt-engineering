@@ -2,7 +2,7 @@
 name: prompt-evaluation
 description: Prompt testing, metrics, and A/B testing frameworks
 sasmp_version: "1.3.0"
-bonded_agent: evaluation-testing-agent
+bonded_agent: 06-evaluation-testing-agent
 bond_type: PRIMARY_BOND
 ---
 

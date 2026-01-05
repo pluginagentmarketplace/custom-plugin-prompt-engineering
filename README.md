@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-prompt-engineering
+/plugin marketplace add pluginagentmarketplace/custom-plugin-prompt-engineering
 
 # Step 2️⃣ Install the plugin
 /plugin install prompt-engineering-assistant@pluginagentmarketplace-prompt-engineering
